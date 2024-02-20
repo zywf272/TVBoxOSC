@@ -25,10 +25,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: wf272
+          - userName: zywf272
             repoName: TVBoxOS
             branchName: main
-          - userName: wf272
+          - userName: zywf272
             repoName: tk99TVBox
             branchName: main
     steps:
