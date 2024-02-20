@@ -25,11 +25,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: q215613905
+          - userName: wf272
             repoName: TVBoxOS
             branchName: main
-          - userName: takagen99
-            repoName: Box
+          - userName: wf272
+            repoName: tk99TVBox
             branchName: main
     steps:
       - name: Checkout
